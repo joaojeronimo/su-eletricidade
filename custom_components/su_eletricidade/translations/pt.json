@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SU Eletricidade",
+        "description": "Configurar o tarifário BTN Tri-Horário da SU Eletricidade.",
+        "data": {
+          "cycle": "Ciclo",
+          "price_ponta": "Preço em Ponta (€/kWh s/ IVA)",
+          "price_cheias": "Preço em Cheias (€/kWh s/ IVA)",
+          "price_vazio": "Preço em Vazio (€/kWh s/ IVA)"
+        },
+        "data_description": {
+          "cycle": "Selecione entre Ciclo Diário (igual todos os dias) ou Ciclo Semanal (diferenciado dias úteis/fim de semana).",
+          "price_ponta": "Preço da eletricidade nas horas de ponta sem IVA.",
+          "price_cheias": "Preço da eletricidade nas horas de cheias sem IVA.",
+          "price_vazio": "Preço da eletricidade nas horas de vazio sem IVA."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Este ciclo da SU Eletricidade já se encontra configurado."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opções SU Eletricidade",
+        "description": "Atualizar ciclo ou preços do tarifário (€/kWh s/ IVA).",
+        "data": {
+          "cycle": "Ciclo",
+          "price_ponta": "Preço em Ponta (€/kWh s/ IVA)",
+          "price_cheias": "Preço em Cheias (€/kWh s/ IVA)",
+          "price_vazio": "Preço em Vazio (€/kWh s/ IVA)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "period": { "name": "Período" },
+      "total": { "name": "Total" },
+      "total_iva6": { "name": "Total c/ IVA 6%" },
+      "total_iva23": { "name": "Total c/ IVA 23%" }
+    }
+  }
+}

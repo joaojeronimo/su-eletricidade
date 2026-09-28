@@ -1,0 +1,12 @@
+{
+  "domain": "su_eletricidade",
+  "name": "SU Eletricidade",
+  "codeowners": ["@joaojeronimo"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/joaojeronimo/su-eletricidade",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/joaojeronimo/su-eletricidade/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
