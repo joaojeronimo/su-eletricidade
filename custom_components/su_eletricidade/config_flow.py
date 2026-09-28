@@ -51,7 +51,7 @@ def _build_schema(
                 selector.NumberSelectorConfig(
                     min=0.0,
                     max=2.0,
-                    step=0.0001,
+                    step="any",
                     mode=selector.NumberSelectorMode.BOX,
                     unit_of_measurement="€/kWh",
                 ),
@@ -62,7 +62,7 @@ def _build_schema(
                 selector.NumberSelectorConfig(
                     min=0.0,
                     max=2.0,
-                    step=0.0001,
+                    step="any",
                     mode=selector.NumberSelectorMode.BOX,
                     unit_of_measurement="€/kWh",
                 ),
@@ -73,7 +73,7 @@ def _build_schema(
                 selector.NumberSelectorConfig(
                     min=0.0,
                     max=2.0,
-                    step=0.0001,
+                    step="any",
                     mode=selector.NumberSelectorMode.BOX,
                     unit_of_measurement="€/kWh",
                 ),
